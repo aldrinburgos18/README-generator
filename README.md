@@ -13,11 +13,20 @@ A command-line application that dynamically generates a professional README.md f
 - [License](#license)
 
 ## Installation
-Open terminal, install dependencies using the command 'npm_install', then run index.js using node.
+Open terminal, install dependencies using the command 'npm_install'.
 
 ## Usage
-Follow prompt on screen to successfully create a professional README file.
-![README Generator](/Screenshot.png?raw=true "README Generator")
+Open terminal then run index.js using node.  
+![Example1_gif](gif1.gif)
+  
+Answer on screen prompt to generate values for README.  
+![Example2_gif](gif2.gif)
+  
+Preview of finished product:  
+![Example3_gif](gif3.gif)
+  
+Clicking on "more information" directs user to license information page.
+![Example4_gif](gif4.gif)
 
 ## Contributing
 When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
