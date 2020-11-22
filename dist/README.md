@@ -17,7 +17,7 @@ Open terminal, install dependencies using the command 'npm install', then run in
 
 ## Usage
 Follow prompt on screen to successfully generate a professional README.md file.
-![Alt text](screenshot.png "Screenshot")
+![Alt text](Screenshot.png "Screenshot")
 
 ## Contributing
 When contributing to this repository, please first discuss the change you wish to make via issue, e-mail, or any other method with the owners of this repository before making any changes.
