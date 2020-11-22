@@ -55,6 +55,8 @@ This program comes with ABSOLUTELY NO WARRANTY. This is free software, and you a
 *[More Information about this license...](https://www.gnu.org/licenses/gpl-3.0)*`;
         return link; 
     }
+
+    //none
     if(data.license==='none'){
       let link=`*No license selected*`
       return link;

@@ -68,6 +68,19 @@ const promptUser = () => {
         },
         {
             type: 'input',
+            name: 'link',
+            message: 'Enter the link to your project: (Required) ',
+            validate: linkInput  => {
+              if (linkInput) {
+                return true;
+              } else {
+                console.log("Please enter the link to your project!");
+                return false;
+              }
+            }
+        },
+        {
+            type: 'input',
             name: 'description',
             message: 'Provide a description of the project: (Required) ',
             validate: descriptionInput => {
@@ -114,11 +127,27 @@ const promptUser = () => {
             type: 'input',
             name: 'contributing',
             message: 'Provide contributing guidelines: ',
+            validate: contributingInput => {
+                if(contributingInput) {
+                  return true;
+                } else {
+                  console.log('Please provide contributing guidelines!');
+                  return false;
+                }
+              }
         },
         {
             type: 'input',
             name: 'usage',
-            message: 'Provide instructions and examples for use: ',
+            message: 'Provide instructions for use: ',
+            validate: usageInput => {
+                if(usageInput) {
+                  return true;
+                } else {
+                  console.log('Please provide instructions for use!');
+                  return false;
+                }
+              }
         },
         {
             type: 'list',

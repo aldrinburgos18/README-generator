@@ -1,4 +1,4 @@
-const licenseSelection = require('./licenseArray.js');
+const licenseSelection = require('./licenseSelection.js');
 
 const generateScreenshot = screenshotImg => {
   if (!screenshotImg) {
@@ -12,11 +12,12 @@ function generateMarkdown(data) {
   const license = licenseSelection(data);
   const licenseImg = license.split("\n")
 
-  return `
-# ${data.title}
+  return `# ${data.title}
 ${licenseImg[0]}
 ## Description
-${data.description}
+${data.description}  
+  
+**Link to deployed application:** [${data.link}](${data.link})
 
 ## Table of Contents
 - [Installation](#installation)
