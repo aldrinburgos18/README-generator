@@ -4,7 +4,7 @@ const generateScreenshot = screenshotImg => {
   if (!screenshotImg) {
     return '';
   };
-  return `![Alt text]('${screenshotImg}' "Screenshot")`;
+  return `![Alt text](${screenshotImg} "Screenshot")`;
 };
 
 // function to generate markdown for README

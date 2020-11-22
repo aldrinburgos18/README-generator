@@ -1,7 +1,9 @@
-# Weather Dashboard
+# README Generator
 ![](https://img.shields.io/badge/License-MIT-yellow.svg)  
 ## Description
-An application that shows the weather by city. It shows the current weather as well as a 5 day forecast.
+A command-line application that dynamically generates a professional README.md file from a user's input using the Inquirer package.  
+  
+**Link to deployed application:** [https://github.com/aldrinburgos18/README-generator](https://github.com/aldrinburgos18/README-generator)
 
 ## Table of Contents
 - [Installation](#installation)
@@ -11,14 +13,14 @@ An application that shows the weather by city. It shows the current weather as w
 - [License](#license)
 
 ## Installation
-Run index.html
+Open terminal, install dependencies using the command 'npm install', then run index.js using node.
 
 ## Usage
-The user will enter a city to perform the search. Clicking on the button will display the information. The entered city will be momentarily registered in a button, and you can search for as many cities as you want. If the user wants to see the weather conditions of a previously searched city, they can click on the registered city and the information will be displayed again. The UV Index parameter shows the value together with a color that represents favorable (green), moderate (orange) or severe (red).
-
+Follow prompt on screen to successfully generate a professional README.md file.
+![Alt text](screenshot.png "Screenshot")
 
 ## Contributing
-
+When contributing to this repository, please first discuss the change you wish to make via issue, e-mail, or any other method with the owners of this repository before making any changes.
 
 ## Questions
 If you have any additional questions, please feel free to contact me at:  
